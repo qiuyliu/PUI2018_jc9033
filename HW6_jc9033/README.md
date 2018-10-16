@@ -1,31 +1,36 @@
-# PUI2018 HW 5 Session 2.
-
-## ASSIGNED READING:
-
-Read about the [Open Data Laws and the status of their implementation](https://www.wnyc.org/story/experts-agencies-suggest-nyc-open-data-law-lacks-resources/) and what is the [PLUTO data](https://www.wired.com/2013/08/nyc-pluto-data-map-party/)
-
-
-## ASSIGNMENTS:
-
-### Submission Info:
-
-For Assignment 1: Submit through notebook.
-
-For Assignment 2: Submission through notebook.
-
-![https://xkcd.com/327/](exploits_of_a_mom.png)
-
+# Homework 6
+Individual work by Junjie Cai
 
 ## Assignment 1: Practice pandas
-
-Follow the skeleton notebook [here](pandas_PLUTO_exercise_instructions.ipynb). There is a notebook in [Lab6_fb55_session1](https://github.com/fedhere/PUI2018_fb55/tree/master/Lab6_fb55_session1) called readingData.ipynb with some dataframe manipulation examples and several more in [the data wrangling folder in UInotebooks](https://github.com/fedhere/UInotebooks/tree/master/dataWrangling) inclusing the transcript of [Chapter 7](https://github.com/fedhere/UInotebooks/blob/master/dataWrangling/PandasDataWrangling-Chap7.ipynb) of Python for Data Analysis (Pandas manual)
+Data Read, Display, Clean, Classify(group by), Convert, Transform, Merge, Simple calculation, etc.
   
-### Grading 
+## Assignment 2: SQL Lab (through CARTO)
 
-You will be graded on the outputs of the notebook: the outputs should be as they are in the [skeleton notebook](pandas_PLUTO_exercise_instructions.ipynb) . 
+### Task 1 — Familiarize with SQL Clauses
+- Sort data by start_station_id, tripduration
+    - Only checking trips with duration <= 3 hours
+- Only show the top/last 10 records (aka head and tail in SQL)
+- List all unique start_station_id values
+- Aggregation functions:
+    - Count the number of trips (aka wc -l in SQL)
+    - Find the average/min/max trip duration
 
-## Assignment 2: Follow Mr. Kryaschev's instructions
-SQL lab [Instructions](https://serv.cusp.nyu.edu/~hvo/files/SQL_Lab.pdf) (also [here] (https://github.com/fedhere/UInotebooks/blob/master/slides2018/SQL_Lecture_Lab.pdf))
+### Task 2 — Working with date/time
+- Selecting trips started on Feb-02-2015 only
+- Selecting trips started on the weekends
+    - What are average trip duration during weekends?
+- Can we do the same for weekday?
 
-return the lab as a jupyter notebook using the [SQL_query notebook](https://github.com/fedhere/PUI2018_fb55/blob/master/HW6_fb55_session1/SQL_query.ipynb) to start (in this repo) and submitting the sql queries through the carto API
-
+### Task 3 — Working with Space
+- Showing the list of start station locations
+    - Using GROUP BY
+- Showing the number of trips started per station
+- … but only for stations within 500m of Time Square!
+    - The coordinates of Time Square is (40.7577,-73.9857)
+    
+### Task 4 — Putting it all together
+- Find the station that had the longest average trip duration during
+    - weekends and within 500m of TimeSquare!
+- Extra: create lines for trips started from stations within 500m of Times
+    - Squares and lasted less than 2 hours. The number of trips per each
+    - pair of stations are output as attributes of these lines.
