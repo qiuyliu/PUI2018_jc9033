@@ -1,4 +1,6 @@
-# Assignment 1: Review your classmate's Citibike project proposal
+# Homework 5
+
+## Assignment 1: Review your classmate's Citibike project proposal
 Individual work<br>
 Please refer to the pull request: https://github.com/christinebidds22/PUI2018_cb4221/pull/1
 
@@ -28,7 +30,7 @@ First of all, there is difference between these 2 groups. And there is differenc
 Secondly, the independent variable is age(or equally birthyear). And for the two groups, it is dichotomous. At the same time, we are measuring the frequency of rides as dependent variable, and it is continuous. The data type coincides with t-test.<br>
 
 
-# Assignment 2: Literature choices of statistical tests
+## Assignment 2: Literature choices of statistical tests
 Group Work with Effy Fan (yf1150)<br><br>
 Contirbution:
 * T-Test: Junjie Cai
@@ -56,13 +58,13 @@ Riders' hands: high HHa, middle MHa, low LHa; Riders' heels: high HHe, middle MH
 **Figure 3.
 ROC curves of the anthropometric indices for hypertension, diabetes, and dyslipidemia in men and women.**<br>  
 
-# Assignment 3: Reproduce the analysis of the Hard to Employ program in NY
+## Assignment 3: Reproduce the analysis of the Hard to Employ program in NY
 Individual work<br>
 
 1. Reproduce the analysis of the Hard to Employ program in NY.<br>
 2. Complete the Z-test and the Chi-squre test.
 
-# Assignment 4: Tests of correlation using the scipy package with citibike data.
+## Assignment 4: Tests of correlation using the scipy package with citibike data.
 Individual work<br>
 
 1. Complete Pearson’s test, Spearman’s test and K-S test to assess correlation between 2 samples of citibike data.<br>
