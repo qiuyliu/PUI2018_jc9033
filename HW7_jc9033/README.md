@@ -1,4 +1,4 @@
-# PUI2018 HW 7
+# Homework 6
 ## Assignment 1: census geospatial analysis. 
 Individual work by Junjie Cai
 * Assess if the linkNYC stations are located to provide a useful service and to fill in a need.
