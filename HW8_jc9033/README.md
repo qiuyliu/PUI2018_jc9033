@@ -6,7 +6,7 @@ Individual work by Junjie Cai<br>
 
  ![image](FDNY_Response.png)
  
-### Figure 1: FDNY Avarage Response Time against the Number of Incidents in the last 8 years
+### Figure 1: FDNY Avarage Response Time against the Monthly number of Incidents in the last 8 years
 
 ## Assignment 2 Citibike miniproject
 
