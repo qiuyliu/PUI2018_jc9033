@@ -27,9 +27,9 @@ and print the model summary for each and discuss the differences
 
 ## Assignment 3: investigate linear relationships between fire arm possession, homicides by fire arms, and mass shootings for different countries, considering also the country GDP
 
-1  DATA:
+#### 1  DATA:
 
-2  exploration
+#### 2  exploration
 
 2.1  plot mass shooting vs gdp in absolute numbers, and per person. Show the errorbars (y errors)
 
@@ -41,7 +41,7 @@ and print the model summary for each and discuss the differences
 
 2.5  plot the number of mass shootings against the number of civilian firearms. plot the US in a different color
 
-3  Modeling
+#### 3  Modeling
 
 3.1  fit a line to the Number of mass shootings per person as a function of Average total all civilian firearms per person.
 

@@ -1,5 +1,4 @@
-### Main plot of the paper for Correlation: 
-<img src="../HW8_rs6431/Plot_TimeSquare_food.png" width="350">
+![Alt text](Plot_TimeSquare_food.png)
 
 Figure 1:  'Times Square Food & Beverage Locations' data is provided by Times Square Alliance (TSA), which indicates each specific shop with subindustry and location. This figure mainly plot their geolocation with subindustry. The number of shop which provided full service seems to be the largest amount, and the shop provided quick service tend to be at the edge of the square. In order to show the graph clearly, the contour map is filtered into the area in which time-square located.
 
